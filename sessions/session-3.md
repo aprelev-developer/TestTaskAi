@@ -1,4 +1,4 @@
-# Сессия 3 — QA-прогон над блогом AbeloHostRepTechTask
+# Сессия 3 — QA-прогон над блогом blog-platform
 
 - **Дата:** 2026-08-17
 - **Ассистент:** Claude Code, модель Opus 5 (1M context)
