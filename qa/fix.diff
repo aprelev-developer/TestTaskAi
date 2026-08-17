@@ -1,0 +1,19 @@
+diff --git a/app/Core/Router.php b/app/Core/Router.php
+index cabe9cb..3507183 100644
+--- a/app/Core/Router.php
++++ b/app/Core/Router.php
+@@ -36,6 +36,14 @@ class Router
+     public function dispatch(string $method, string $uri): array
+     {
+         $method = strtoupper($method);
++
++        // RFC 9110 §9.3.2: ресурс, поддерживающий GET, обязан поддерживать HEAD.
++        // Ответ на HEAD совпадает с ответом на GET за вычетом тела; тело отбрасывает
++        // веб-сервер, поэтому маршрутизация достаточна.
++        if ($method === 'HEAD') {
++            $method = 'GET';
++        }
++
+         $pathMatched = false;
+ 
+         foreach ($this->routes as $route) {
