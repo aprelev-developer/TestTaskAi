@@ -45,6 +45,11 @@ cp .env.example .env
 cp ../docker-compose.override.yml .
 
 docker compose build && docker compose up -d
+
+# Дать MySQL прогреться. Без этой паузы следующий шаг может упасть:
+# healthcheck отмечает базу готовой не мгновенно.
+sleep 15
+
 docker compose exec -T php composer install --no-interaction
 for f in database/migrations/*.sql; do
   docker compose exec -T mysql mysql -ublog_user -pblog_password blog < "$f"
@@ -53,6 +58,10 @@ docker compose exec -T php php database/seeders/run.php
 docker compose exec -T php sass resources/scss/main.scss public/css/style.css --no-source-map
 cd ..
 ```
+
+Занятыми могут оказаться и другие порты: **8080** (само приложение) и **8081**
+(phpMyAdmin). Оверрайд снимает только 3306 — если конфликтует 8080 или 8081,
+их придётся освободить или дописать в `docker-compose.override.yml`.
 
 ### 2. Убедиться, что стенд жив
 
