@@ -178,7 +178,7 @@ MCP-серверы, плагины и скиллы ассистента, хук�
 **Это не разработка. Это QA-проверка чужого приложения.**
 
 Мы проверяем существующий PHP-блог (`app-under-test/`, клон
-`github.com/aprelev-developer/AbeloHostRepTechTask`) и производим артефакты
+`github.com/aprelev-developer/blog-platform`) и производим артефакты
 проверки: тест-план с заранее записанными ожиданиями, баг-репорты с
 доказательствами, автотест, падающий на реальном дефекте, и разбор расхождений
 между отчётом агента и фактом. Задание курса № 4 (QA).
@@ -216,7 +216,7 @@ MCP-серверы, плагины и скиллы ассистента, хук�
 ```bash
 # 1. Поднять объект тестирования (стенд) с нуля
 git clone --branch develop \
-  https://github.com/aprelev-developer/AbeloHostRepTechTask.git app-under-test
+  https://github.com/aprelev-developer/blog-platform.git app-under-test
 cd app-under-test && cp .env.example .env
 # docker-compose.override.yml уже лежит в репозитории сдачи — скопировать в клон,
 # если порт 3306 на машине занят
@@ -260,8 +260,8 @@ cd app-under-test && docker compose down
    ничего не отправляется. Нарушено хоть одно условие — фикс не делается.
 
 3. **Ни при каких обстоятельствах не отправлять ничего в репозиторий
-   `aprelev-developer/AbeloHostRepTechTask`**: ни push, ни PR, ни issue.
-   Это чужое публичное тестовое задание.
+   `aprelev-developer/blog-platform`**: ни push, ни PR, ни issue.
+   Это чужой публичный репозиторий.
 
 4. **Ни при каких обстоятельствах не останавливать и не удалять чужие Docker-
    контейнеры.** На машине работают `mysql57`, `cards-api-*`, `cryptomus-*`,

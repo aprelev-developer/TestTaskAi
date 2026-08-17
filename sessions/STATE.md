@@ -10,7 +10,7 @@
 
 Домашнее задание после занятия 1, **задание 4 (QA)**. Разработки нет: мы
 проверяем чужое существующее приложение (PHP-блог) и производим артефакты
-проверки. Объект — клон `github.com/aprelev-developer/AbeloHostRepTechTask`
+проверки. Объект — клон `github.com/aprelev-developer/blog-platform`
 в `app-under-test/` (в `.gitignore`, в сдачу не входит).
 
 ## Готово

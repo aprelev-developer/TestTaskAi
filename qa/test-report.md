@@ -1,7 +1,7 @@
 # Отчёт о прогоне тест-плана
 
 - **Дата прогона:** 2026-08-17
-- **Объект:** `app-under-test/` — клон `aprelev-developer/AbeloHostRepTechTask`, ветка `develop`
+- **Объект:** `app-under-test/` — клон `aprelev-developer/blog-platform`, ветка `develop`
 - **Стенд:** `http://localhost:8080`, Docker, сид 6 категорий / 25 постов
 - **Тест-план:** `SPEC.md` §9, ожидаемые результаты записаны **до** прогона
 - **Артефакты:** `qa/evidence/` — скриншоты, скрипты проб и их вывод целиком

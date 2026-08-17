@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Автотест контракта блога AbeloHostRepTechTask.
+"""Автотест контракта блога blog-platform.
 
 Запуск:  python3 qa/test_contract.py
 Зависимости: только стандартная библиотека Python 3 (см. AGENTS.md, "Стек и версии").
