@@ -1,0 +1,14 @@
+# Клон объекта тестирования: чужой код, в сдачу не входит.
+# Как его получить — в README.md, раздел «Как запустить».
+app-under-test/
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
