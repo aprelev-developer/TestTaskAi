@@ -1,0 +1,28 @@
+/category/programming                            200  ids=[24, 22, 20, 16, 12, 10, 4, 1]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming?sort=views                 200  ids=[4, 22, 1, 24, 20, 16, 12, 10]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming?sort=title                 200  ids=[16, 1, 12, 4, 22, 10, 24, 20]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming/                           404  ids=[]  | Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights rese
+/category/Programming                            404  ids=[]  | Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights rese
+/category/PROGRAMMING                            404  ids=[]  | Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights rese
+/category/programming?page=1                     200  ids=[24, 22, 20, 16, 12, 10, 4, 1]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming?page=01                    200  ids=[24, 22, 20, 16, 12, 10, 4, 1]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming?page=1.5                   200  ids=[24, 22, 20, 16, 12, 10, 4, 1]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming?page=%20                   200  ids=[24, 22, 20, 16, 12, 10, 4, 1]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming?page=                      200  ids=[24, 22, 20, 16, 12, 10, 4, 1]  | Blog Home Programming Tutorials, best practices, and discussions about
+/category/programming?sort=                      400  ids=[]  | Blog Home 400 Invalid sort parameter. Allowed: date, views, title Back
+/category/programming?sort=date&page=abc         200  ids=[24, 22, 20, 16, 12, 10, 4, 1]  | Blog Home Programming Tutorials, best practices, and discussions about
+/post/04                                         200  ids=[18, 22, 7]  | Blog Home Design Modern CSS Techniques You Should Know August 17, 2026
+/post/4.0                                        404  ids=[]  | Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights rese
+/post/+4                                         404  ids=[]  | Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights rese
+--- методы ---
+POST    / -> 405  Blog Home 405 Method Not Allowed Back to Home &copy; 2026 Blog. All rights reser
+PUT     / -> 405  405 Not Allowed nginx/1.29.6
+DELETE  / -> 405  405 Not Allowed nginx/1.29.6
+HEAD    / -> 405  
+--- заголовки главной ---
+  Server: nginx/1.29.6
+  Date: Mon, 17 Aug 2026 13:37:35 GMT
+  Content-Type: text/html; charset=UTF-8
+  Transfer-Encoding: chunked
+  Connection: close
+  X-Powered-By: PHP/8.3.33

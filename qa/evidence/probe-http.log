@@ -1,0 +1,119 @@
+==============================================================================
+T01  /  -> HTTP 200   <title>Blog - Home</title>
+  карточек: 17
+    id=19   views=4     date=August 17, 2026      Remote Team Management Strategies
+    id=5    views=2     date=August 17, 2026      Building Scalable Web Applications
+    id=8    views=2     date=August 17, 2026      Startup Funding: From Seed to Series A
+    id=18   views=10    date=August 17, 2026      Typography in Web Design
+    id=22   views=7     date=August 17, 2026      Responsive Design Beyond Media Queries
+    id=4    views=6     date=August 17, 2026      Modern CSS Techniques You Should Know
+    id=15   views=2     date=August 17, 2026      Healthy Eating for Busy Professionals
+    id=19   views=4     date=August 17, 2026      Remote Team Management Strategies
+    id=23   views=2     date=August 17, 2026      Mindfulness and Meditation for Beginners
+    id=24   views=2     date=August 17, 2026      Security Best Practices for PHP Applications
+  текст: Blog Home Welcome to the Blog Explore articles across various topics Business Entrepreneurship, startups, and business strategies. Remote Team Management Strategies Lead distributed teams effectively 
+==============================================================================
+T02  /category/programming  -> HTTP 200   <title>Programming</title>
+  карточек: 7
+    id=24   views=2     date=August 17, 2026      Security Best Practices for PHP Applications
+    id=22   views=7     date=August 17, 2026      Responsive Design Beyond Media Queries
+    id=20   views=2     date=August 17, 2026      Testing Strategies for Web Applications
+    id=16   views=2     date=August 17, 2026      Database Optimization Techniques
+    id=12   views=2     date=August 17, 2026      Git Workflow Strategies for Teams
+    id=10   views=2     date=August 17, 2026      RESTful API Design Best Practices
+    id=4    views=6     date=August 17, 2026      Modern CSS Techniques You Should Know
+  текст: Blog Home Programming Tutorials, best practices, and discussions about programming languages and tools. Sort by: Date Views Title Security Best Practices for PHP Applications Protect your PHP applicat
+==============================================================================
+T03  /category/programming?sort=views  -> HTTP 200   <title>Programming</title>
+  карточек: 7
+    id=22   views=7     date=August 17, 2026      Responsive Design Beyond Media Queries
+    id=4    views=6     date=August 17, 2026      Modern CSS Techniques You Should Know
+    id=1    views=5     date=August 17, 2026      Getting Started with PHP 8.3
+    id=24   views=2     date=August 17, 2026      Security Best Practices for PHP Applications
+    id=20   views=2     date=August 17, 2026      Testing Strategies for Web Applications
+    id=16   views=2     date=August 17, 2026      Database Optimization Techniques
+    id=12   views=2     date=August 17, 2026      Git Workflow Strategies for Teams
+  текст: Blog Home Programming Tutorials, best practices, and discussions about programming languages and tools. Sort by: Date Views Title Responsive Design Beyond Media Queries Modern approaches to building r
+==============================================================================
+T04  /category/programming?sort=title  -> HTTP 200   <title>Programming</title>
+  карточек: 7
+    id=16   views=2     date=August 17, 2026      Database Optimization Techniques
+    id=1    views=5     date=August 17, 2026      Getting Started with PHP 8.3
+    id=12   views=2     date=August 17, 2026      Git Workflow Strategies for Teams
+    id=4    views=6     date=August 17, 2026      Modern CSS Techniques You Should Know
+    id=22   views=7     date=August 17, 2026      Responsive Design Beyond Media Queries
+    id=10   views=2     date=August 17, 2026      RESTful API Design Best Practices
+    id=24   views=2     date=August 17, 2026      Security Best Practices for PHP Applications
+  текст: Blog Home Programming Tutorials, best practices, and discussions about programming languages and tools. Sort by: Date Views Title Database Optimization Techniques Speed up your database queries with t
+==============================================================================
+T05  /post/4  -> HTTP 200   <title>Modern CSS Techniques You Should Know</title>
+  карточек: 2
+    id=18   views=10    date=August 17, 2026      Typography in Web Design
+    id=22   views=7     date=August 17, 2026      Responsive Design Beyond Media Queries
+  текст: Blog Home Design Modern CSS Techniques You Should Know August 17, 2026 7 views CSS has evolved significantly in recent years. Features like CSS Grid, Custom Properties, Container Queries, and the :has
+==============================================================================
+T06  /category/nonexistent  -> HTTP 404   <title>Error 404</title>
+  карточек: 0
+  текст: Blog Home 404 Category not found Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+T07  /post/999999  -> HTTP 404   <title>Error 404</title>
+  карточек: 0
+  текст: Blog Home 404 Post not found Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+T08  /post/abc  -> HTTP 404   <title>Error 404</title>
+  карточек: 0
+  текст: Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+T09  /category/programming?page=2  -> HTTP 200   <title>Programming</title>
+  карточек: 0
+  текст: Blog Home Programming Tutorials, best practices, and discussions about programming languages and tools. Sort by: Date Views Title No posts found in this category. &copy; 2026 Blog. All rights reserved
+==============================================================================
+T10a  /category/programming?page=0  -> HTTP 400   <title>Error 400</title>
+  карточек: 0
+  текст: Blog Home 400 Page must be greater than 0 Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+T10b  /category/programming?page=-1  -> HTTP 400   <title>Error 400</title>
+  карточек: 0
+  текст: Blog Home 400 Page must be greater than 0 Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+T10c  /category/programming?page=abc  -> HTTP 200   <title>Programming</title>
+  карточек: 7
+    id=24   views=2     date=August 17, 2026      Security Best Practices for PHP Applications
+    id=22   views=7     date=August 17, 2026      Responsive Design Beyond Media Queries
+    id=20   views=2     date=August 17, 2026      Testing Strategies for Web Applications
+    id=16   views=2     date=August 17, 2026      Database Optimization Techniques
+    id=12   views=2     date=August 17, 2026      Git Workflow Strategies for Teams
+    id=10   views=2     date=August 17, 2026      RESTful API Design Best Practices
+    id=4    views=7     date=August 17, 2026      Modern CSS Techniques You Should Know
+  текст: Blog Home Programming Tutorials, best practices, and discussions about programming languages and tools. Sort by: Date Views Title Security Best Practices for PHP Applications Protect your PHP applicat
+==============================================================================
+T11  /category/programming?sort=hacked  -> HTTP 400   <title>Error 400</title>
+  карточек: 0
+  текст: Blog Home 400 Invalid sort parameter. Allowed: date, views, title Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+EXTRA-sqli  /category/programming?sort=title'--  -> HTTP 400   <title>Error 400</title>
+  карточек: 0
+  текст: Blog Home 400 Invalid sort parameter. Allowed: date, views, title Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+EXTRA-xss  /category/%3Cscript%3Ealert(1)%3C/script%3E  -> HTTP 404   <title>Error 404</title>
+  карточек: 0
+  текст: Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+EXTRA-post0  /post/0  -> HTTP 400   <title>Error 400</title>
+  карточек: 0
+  текст: Blog Home 400 Invalid post ID Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+EXTRA-postneg  /post/-1  -> HTTP 404   <title>Error 404</title>
+  карточек: 0
+  текст: Blog Home 404 Not Found Back to Home &copy; 2026 Blog. All rights reserved.
+==============================================================================
+EXTRA-bigpage  /category/programming?page=99999999999999999999  -> HTTP 200   <title>Programming</title>
+  карточек: 7
+    id=24   views=2     date=August 17, 2026      Security Best Practices for PHP Applications
+    id=22   views=7     date=August 17, 2026      Responsive Design Beyond Media Queries
+    id=20   views=2     date=August 17, 2026      Testing Strategies for Web Applications
+    id=16   views=2     date=August 17, 2026      Database Optimization Techniques
+    id=12   views=2     date=August 17, 2026      Git Workflow Strategies for Teams
+    id=10   views=2     date=August 17, 2026      RESTful API Design Best Practices
+    id=4    views=7     date=August 17, 2026      Modern CSS Techniques You Should Know
+  текст: Blog Home Programming Tutorials, best practices, and discussions about programming languages and tools. Sort by: Date Views Title Security Best Practices for PHP Applications Protect your PHP applicat
